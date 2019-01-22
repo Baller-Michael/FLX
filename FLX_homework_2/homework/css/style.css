@@ -149,7 +149,7 @@
 
     .padding-medium ol > li > a:hover {
         text-decoration-line: underline;
-		text-decoration-style: double;
+	text-decoration-style: double;
         color: #79b6f4;
     }
 
