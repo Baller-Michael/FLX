@@ -5,57 +5,147 @@
 body {
   font: normal 300 15px/24px Roboto, Ubuntu, Cantarell, Helvetica, sans-serif;
   background: #fff; }
+  body main {
+    margin: 0 auto;
+    width: 960px; }
 
 header {
-  color: #fff;
   background: url(../img/header_background_v1.jpg) no-repeat top/cover;
   height: 100vh; }
   header .top-wrapper {
     display: flex;
     justify-content: space-between; }
-  header img {
-    height: 150px;
-    width: 250px; }
-  header nav a {
-    font-weight: bold;
-    color: #fff;
-    text-decoration: none;
-    display: inline-block;
-    text-transform: uppercase;
-    padding: 20px 115px; }
-    header nav a:nth-child(2) {
-      border-left: 1px solid #607d8b;
-      border-right: 3px solid #607d8b; }
-
-section {
-  text-align: center;
-  margin-top: 250px; }
-  section h1 {
-    text-transform: uppercase;
-    font-size: 26px;
-    font-weight: bold; }
-  section a {
-    display: inline-block;
-    text-transform: uppercase;
-    color: #fff;
-    text-decoration: none;
-    background-color: #00adad;
-    padding: 15px 60px;
-    margin-top: 15px; }
+    header .top-wrapper img {
+      height: 150px;
+      width: 250px; }
+    header .top-wrapper nav a {
+      display: inline-block;
+      text-decoration: none;
+      color: #fff;
+      text-transform: uppercase;
+      padding: 20px 115px; }
+      header .top-wrapper nav a:nth-child(2) {
+        border-left: 2px solid #607d8b;
+        border-right: 2px solid #607d8b; }
+  header section {
+    text-align: center;
+    margin-top: 200px; }
+    header section h1 {
+      color: #fff;
+      text-transform: uppercase; }
+    header section a {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #fff;
+      background-color: #01acac;
+      margin-top: 15px;
+      padding: 15px 65px;
+      display: inline-block; }
 
 main .toolbar {
-  padding: 15px 0px;
-  text-align: right; }
-
-.post-list {
-  margin: 0px; }
-
-.post-list h1 {
-  text-align: right; }
-
-article {
-  background: #efefef;
+  text-align: right;
+  margin-top: 20px; }
+  main .toolbar input {
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid #607d8b;
+    color: #000; }
+    main .toolbar input::placeholder {
+      color: #000; }
+main .post-list h1 {
+  text-align: right;
+  margin-top: 20px;
+  text-transform: uppercase;
+  color: #000; }
+main .post-list article {
   display: flex;
+  background-color: #efefef;
   margin-bottom: 20px;
-  text-align: left;
   padding: 10px 15px 10px 10px; }
+  main .post-list article img {
+    margin-right: 10px; }
+main .post-list .post .post-description {
+  color: #e90303;
+  border-bottom: 1px solid #222;
+  padding: 5px 5px;
+  font-size: 11px; }
+main .post-list .post h3 {
+  color: #0097a7;
+  text-transform: uppercase;
+  margin-top: 5px; }
+main .post-list .post p {
+  font-size: 14px;
+  line-height: 1.6em;
+  color: #222;
+  padding-right: 10px; }
+main .btn {
+  background-color: #01acac;
+  border: none;
+  padding: 10px 70px;
+  text-transform: uppercase;
+  transition: 1s ease-out 0.5s;
+  cursor: pointer;
+  color: #fff;
+  float: right;
+  margin-top: 20px; }
+  main .btn:hover {
+    background-color: #01f8f8; }
+main #about {
+  color: #222; }
+  main #about h1 {
+    text-align: right;
+    text-transform: uppercase;
+    margin-top: 50px; }
+  main #about p {
+    margin-bottom: 20px; }
+  main #about img {
+    width: 100%; }
+main #contact {
+  color: #222;
+  text-align: right;
+  margin-top: 50px; }
+  main #contact h4 {
+    text-transform: uppercase; }
+main form .fields {
+  display: flex;
+  justify-content: space-between; }
+main form label {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px; }
+  main form label input {
+    border: 1px solid #607d8b;
+    width: 460px;
+    height: 40px;
+    padding: 5px;
+    background-color: transparent; }
+  main form label textarea {
+    width: 99%;
+    border: 1px solid #607d8b;
+    background-color: transparent;
+    padding: 5px; }
+  main form label span {
+    position: relative;
+    color: #0097a7; }
+  main form label .required {
+    margin-right: 10px; }
+    main form label .required:after {
+      content: '*';
+      position: absolute;
+      right: -10px; }
+main form button {
+  background-color: #01acac;
+  border: none;
+  padding: 10px 70px;
+  text-transform: uppercase;
+  transition: 1s ease-out 0.5s;
+  cursor: pointer;
+  color: #fff;
+  margin-top: 15px; }
+  main form button:hover {
+    background-color: #01f8f8; }
+
+footer {
+  padding: 0px 0px 15px 15px; }
+  footer span {
+    font-size: 12px; }
