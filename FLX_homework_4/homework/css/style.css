@@ -237,10 +237,11 @@ footer .footer-wrapper {
     padding-left: 50px;
 }
 
-footer .footer-wrapper  h3 {
+footer .footer-wrapper h3 {
     margin-bottom: 25px;
 }
-footer .footer-wrapper  p {
+
+footer .footer-wrapper p {
     color: #9e9e9e;
     margin-right: 5px;
     font-size: 12px;
@@ -254,9 +255,11 @@ footer .footer-wrapper .footer-info {
 footer .footer-info .info {
     width: 30%;
 }
+
 footer .footer-wrapper .footer-info .info .italic {
     font-style: italic;
 }
+
 footer .footer-wrapper .footer-info .info span {
     color: #e8e8e8;
     font-size: 12px;
@@ -288,4 +291,3 @@ footer .footer-nav a {
     margin-right: 50px;
     font-size: 12px;
 }
-
