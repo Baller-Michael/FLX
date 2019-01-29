@@ -44,18 +44,36 @@ header{
     border: 1px solid #fff;
     padding: 10px 50px;
 }
+.info{
+height: 200px;
+background: linear-gradient(45deg, #a39e9a, #000);
+}
+}
 .info p{
     color: #fff;
     width: 50%;
     text-align: right;
     margin-top: 100px;
 }
-.info::before{
+/*.info::before{
     content: '';
     width: 0;
 height: 0;
 border-style: solid;
 border-width: 0 900px 400px 0;
 border-color: transparent #090a0a transparent transparent;
+}*/
 
+main {
+    margin-top: 200px;
+}
+.first-section{
+    display: flex;
+    justify-content: space-between;
+}
+.photo img{
+    width: 50%;
+}
+.description{
+    flex-direction: row;
 }
