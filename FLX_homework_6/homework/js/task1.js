@@ -4,10 +4,10 @@ function checkInput(userInput) {
 
 function answer(a, b, dis) {
   if (dis > 0) {
-    alert((-b + Math.sqrt(dis)) / (2 * a));
-    alert((-b - Math.sqrt(dis)) / (2 * a));
+    alert('x1 = ' + (-b + Math.sqrt(dis)) / (2 * a));
+    alert('x2 = ' + (-b - Math.sqrt(dis)) / (2 * a));
   } else if (dis === 0) {
-    alert(-b / (2 * a));
+    alert('x = ' + (-b / (2 * a)));
   } else {
     alert('no solution (when Discriminant < 0)');
   }

@@ -4,7 +4,7 @@ function checkInput(userInput) {
 
 function count(money, discount) {
     if (money < 0 || money > 99999 || discount < 0 || discount > 99 || checkInput(money) || checkInput(discount)) {
-        alert('Invalid data');
+        alert('Invalid input data');
     } else {
         var discountPrice = +((money * discount) / 100).toFixed(2);
         var saved = +(money - discountPrice).toFixed(2);
