@@ -1,5 +1,5 @@
 function checkInput(userInput) {
-    return (userInput === '' || isNaN(userInput));
+    return userInput === '' || isNaN(userInput);
 }
 
 function count(money, discount) {
