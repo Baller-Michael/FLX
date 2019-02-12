@@ -1,7 +1,10 @@
 function formatTime(x) {
-    let days = Math.floor(x / 1440);
-    let hours = days % 24;
     let minutes = x % 60;
-    return days + ' day(s) ' + hours + ' hour(s) ' + minutes + ' minute(s)'
+    let totalHours = (x - minutes) / 60;
+    let hours = totalHours % 24;
+    let days = (totalHours - hours) / 24;
+    return days + ' day(s) ' + hours + ' hour(s) ' + minutes + ' minute(s)';
 }
-formatTime(1441);
+formatTime(120);
+formatTime(59);
+formatTime(3601);

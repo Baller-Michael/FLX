@@ -13,4 +13,6 @@ function reverseNumber(x) {
         return +revers;
     }
 }
-reverseNumber(-45321);
+reverseNumber(123);
+reverseNumber(-456);
+reverseNumber(10000);

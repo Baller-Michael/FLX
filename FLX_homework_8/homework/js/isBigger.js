@@ -2,4 +2,4 @@ function isBigger(x, y) {
     return x > y;
 }
 
-isBigger(7, 5);
+isBigger(5, -1);
